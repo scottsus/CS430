@@ -1,18 +1,21 @@
-from os.path import exists
 import socket
 import sys
-import os.path
 
 # Create a TCP/IP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
+config = {
+    'local': 'localhost',
+    'server': 'intro.hw1-usc430cb.usc430.isi.deterlab.net',
+}
+
 server_address = (sys.argv[1], 80)
-print('connecting to %s port %s' % server_address)
+print('Connecting to %s port %s' % server_address)
+
 sock.connect(server_address)
 sock.settimeout(1)
 try:
-
     # Send data
     filename = sys.argv[2]
     print('request:\nGET /' + filename + ' HTTP/1.1\n')
@@ -39,4 +42,3 @@ except IOError as e:
 
 finally:
     sock.close()
-
