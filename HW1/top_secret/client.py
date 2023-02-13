@@ -1,11 +1,13 @@
 import socket
 import sys
 
+PORT = 80
+
 # Create a TCP/IP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
-server_address = (sys.argv[1], 80)
+server_address = (sys.argv[1], PORT)
 print('Connecting to %s port %s' % server_address)
 
 sock.connect(server_address)

@@ -12,3 +12,7 @@ Information Hunt
 2. /dev: hardware device files
 3. answers on diskfree.txt
 4. The Vendor ID is GenuineIntel
+
+Name: Scott Susanto
+Email: scottsus@usc.edu
+DeterLab Username: usc430cb@users.deterlab.net
