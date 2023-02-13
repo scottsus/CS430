@@ -1,0 +1,14 @@
+Homework 1
+
+Treasure Hunt
+1. 
+2. /dev/136intro-2jjaj.jpeg: Godzilla, King of Monsters
+3. /var/log/136intro-3.jpg: IT CAME FROM OUTER SPACE
+4. /etc/wuer136intro-4.JPG: SHE HAD TO KILL THE THING HER HUSBAND HAS BECOME
+5. 
+
+Information Hunt
+1. /var: files that persist between system reboots
+2. /dev: hardware device files
+3. answers on diskfree.txt
+4. The Vendor ID is GenuineIntel

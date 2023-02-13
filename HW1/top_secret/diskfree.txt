@@ -1,0 +1,10 @@
+Filesystem           Size    Used   Avail Capacity  Mounted on
+/dev/gpt/root         15G    539M     14G     4%    /
+devfs                1.0K    1.0K      0B   100%    /dev
+/dev/gpt/var          62G     27G     30G    48%    /var
+/dev/gpt/usr          62G     13G     44G    22%    /usr
+/dev/gpt/other       1.9T    1.7T    524M   100%    /mnt/other
+/dev/gpt/projects    2.8T    1.2T    1.3T    48%    /mnt/projects
+/dev/gpt/share       484G    234G    212G    52%    /mnt/share
+/dev/md0             992M    464M    449M    51%    /tmp
+procfs               4.0K    4.0K      0B   100%    /proc
