@@ -5,11 +5,6 @@ import sys
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
-config = {
-    'local': 'localhost',
-    'server': 'server.webserver.USC430.isi.deterlab.net',
-}
-
 server_address = (sys.argv[1], 80)
 print('Connecting to %s port %s' % server_address)
 
